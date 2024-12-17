@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon/Oval.jpg">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="load" id="preloder"></div>
+    <div class="contanier">
+        <nav>
+            <article class="nav-one">
+                <img src="icon/image.png" alt="">
+                <ul id="olimjon">
+                    <li id="active-li">Collections<span></span></li>
+                    <li id="active-li">Men<span></span></li>
+                    <li id="active-li">Women<span></span></li>
+                    <li id="active-li">About<span></span></li>
+                    <li id="active-li">Contact<span></span></li>
+                </ul>
+            </article>
+            <article class="nav-two">
+                <ion-icon id="shop-cart" class="shopping" name="cart-outline"></ion-icon>
+                <article class="pro-animation">
+                </article>
+                <img class="nav-profile" id="imageShop" src="./img/9aa79bb2b74839c67a9263940bbce297.png" alt="">
+            </article>
+        </nav>
+        <div class="full-page">
+            <div class="img-box">
+                <img class="image" id="img" src="./img/Snekers-box.png" alt="">
+                <article class="art-image">
+                    <img class="image1" id="img1"
+                        src="/img/Snekers-box.png"
+                        alt="">
+                    <img class="image2" id="img1"
+                        src="./img/Snekers-box1.png"
+                        alt="">
+                    <img class="image3" id="img1"
+                        src="./img/Snekers-box2.png"
+                        alt="">
+                    <img class="image4" id="img1"
+                        src="./img/Snekers-box3.png"
+                        alt="">
+                </article>
+            </div>
+            <div class="add-box">
+                <p class="one-p">Sneaker Company</p>
+                <h1 class="add-h1">Fall Limited Edition Sneakers</h1>
+                <p class="two-p">These low-profile sneakers are your perfect casual wear companion. Featuring a durable
+                    rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                <div class="skitka">
+                    <article class="money" id="check">
+                        <h1 class="narx" id="money1">$125.00</h1>
+                        <p class="foiz">50%</p>
+                    </article>
+                    <h1 class="remove" id="real">$250.00</h1>
+                    <div class="minute" id="timer">00:00</div>
+                </div>
+                <div class="add-card">
+                    <div class="number">
+                        <ion-icon id="min" class="minus" name="remove-outline" onclick="decrement()"></ion-icon>
+                        <p id="num" class="add-p">1</p>  
+                        <ion-icon id="max" class="plus" name="add-outline" onclick="increment()"></ion-icon>
+                    </div>
+                    <button class="add-shop" id="shopping"><ion-icon class="shoop" name="cart-outline"></ion-icon>Add to card</button>
+                </div>
+            </div>
+            <div class="cart-shop remove" id="cart-shop">
+                <h1 class="cart-h1">Cart</h1>
+                <article class="art-shop" id="dewf">
+                    <img class="imgs" src="./img/Snekers-box.png" alt="">
+                    <div class="olim">
+                        <p style="font-size: 26px;">Sneakers</p>
+                        <article style="display: flex; width: 130px; justify-content: space-between;">
+                            <p id="qnarxi">125$</p>
+                            *
+                            <p id="soni">0</p>
+                            =
+                            <p id="narxi">0$</p>
+                        </article>
+                    </div>
+                </article>
+                <button id="chekend">Chekcent</button>
+            </div>
+        </div>
+        <div class="pages remove" id="page">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./img/Snekers-box.png" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/Snekers-box1.png" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/Snekers-box2.png" alt="Slide 3">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/Snekers-box3.png" alt="Slide 4">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+            </div>
+            <?xml version="1.0" ?><svg id="close-slider" class="slider-remove" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/></svg>
+            <!-- <ion-icon class="slider-remove" name="close-outline"></ion-icon> -->
+        </div>
+        <div class="pages-time remove" id="time-page">
+            <div class="time-out">
+                <h1>Harid uchun rahmat!!!</h1>
+                <button id="dell">OK</button>
+            </div>
+        </div>
+        <div class="time-end remove" id="end-time">
+            <div class="time-next">
+                <h1>Chegirma vaqti tugadi!!!</h1>
+                <button id="esm">OK</button>
+            </div>
+        </div>       
+    </div>
+    <!------------------------------- */script*/ --------------------------------->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
